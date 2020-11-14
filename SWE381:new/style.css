@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Dosis';
+}
+.background{
+    background-image: url("logo copy.png");
+    background-color: rgba(245, 245, 212, 0.568);
+    background-position: top center;
+    background-size: 300px 270px;
+    background-repeat: no-repeat;
+}
+body{
+    overflow: scroll;
+}
+a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(65, 64, 64);
+}
+p {
+    font-size: 17px;
+    color: rgb(65, 64, 64);
+}
+h1{
+    color:  rgb(1, 39, 80);
+}
+h2{
+    color:  rgb(2, 38, 77);
+}
+h3{
+    color:  rgb(2, 48, 97);
+}
+ul{
+    list-style-type: none;
+}
+.nav {
+    position: absolute;
+    background-color: rgba(223, 236, 245, 0.781);
+    width: 100%;
+    font-size: 1.03em;
+    text-align: center;
+    height: 50px;
+    top: 280px;
+    border-bottom: 1px solid lightgrey;
+    z-index: 1;
+}
+.nav li {
+    display: inline;
+    color: rgb(2, 45, 87);
+    font-weight: 1000;
+    font-size: 20px;
+}
+.nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(2, 45, 87);
+    padding: 10px 30px;    
+}
+.nav a:hover{
+    color: lightslategrey;
+}
+.sidenav {
+    position: absolute;
+    background-color:  rgba(223, 236, 245, 0.781);
+    font-size: 1.03em;
+    border-right: 1px solid lightgray;
+    top: 329px;
+    z-index: 2;
+    height: 150%;
+    width: 300px;
+}
+.sidenav li{
+    display: block;
+    color: rgb(2, 45, 87);
+    font-weight: 1000;
+    font-size: 20px;
+}
+.sidenav a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(2, 45, 87);
+    padding: 30px;
+}
+.sidenav a:hover{
+    color: lightslategrey;
+}
+.fieldset {
+    background-color: rgba(234, 241, 247, 0.623);
+    border-radius: 30px;
+}
+.legend {
+    margin-left: 36%;
+    padding: 0px 30px;
+}
+.button {
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(34, 70, 116, 0.911);
+    border-radius: 15px;
+    border-color: rgba(36, 59, 88, 0);
+    border-style: ridge;
+    padding: 0px 20px;
+    margin: 10px;
+}
+
+/* homepage */
+.home#maindiv {
+    margin-top: 400px;
+}
+
+.home h1 {
+    padding: 30px;
+}
+.home h3 {
+    padding: 10px 40px;
+}
+
+.home a {
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+}
+.home p {
+    color: rgb(75, 74, 74);
+    padding: 0px 40px;
+    text-align: center;
+}
+
+/* sign in and sign up page */
+.sign fieldset{
+    position: absolute ;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    padding-top: 50px;
+}
+.sign input{
+    margin-bottom: 40px;
+    height: 30px;
+    border-style: ridge;
+    border-radius: 10px;
+}
+.sign#signinbutton {
+    margin-top: 40px;
+}
+.sign #housekeeper,#individual{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 65px;
+}
+
+/* housekeeper/individual edit account and sign up page */ 
+.signup fieldset{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+.signup legend{
+    margin-left: 35%;
+}
+.signup h1{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.signup p{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.signup input{
+    height: 30px;
+    border-style: ridge;
+    border-radius: 10px;
+}
+.signup label input {
+    margin-left: 20px;
+}
+.signup #signupbutton{
+    margin-top: 50px;
+}
+
+/* houskeeper/individual homepage */
+.info fieldset{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+.info p{
+    margin-bottom: 15px;
+}
+.info span{
+    margin-inline-start: 12px;
+}
+.info input{
+    margin-top: 70px;
+    height: 30px;
+}
+
+/* housekeeper schedule page */
+.schedule fieldset{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 500px;
+    text-align: center;
+}
+.schedule input{
+    margin: 30px 0px;
+    height: 40px;
+    border-radius: 17px;
+}
+
+/* set/edit schedule page */
+.setschedule {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 600px;
+    text-align: center;
+}
+.setschedule label,p {
+    padding: 10px;
+}
+.setschedule #savebutton{
+    margin: 40px 0px;
+}
+
+/* view schedule/complaints/fav housekeepers/reserved services page */
+div.container{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: inline;
+    text-align: center;
+}
+div.container fieldset{
+    margin: 10px 20px;
+    width: 400px;
+}
+div.container fieldset ul{
+    text-align: justify;
+    padding-left: 150px;
+    padding-bottom: 15px;
+    list-style-type: none;
+}
+div.container #complaint{
+    padding-left: 100px;
+}
+div.container fieldset li{
+    padding: 5px 0px;
+}
+div.container a{
+    font-size: 25px;
+}
+
+/* search page */
+div.search{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: inline;
+    text-align: center;
+}
+div.search fieldset{
+    width: 600px;
+    height: 500px;
+}
+div.search #search{
+    margin: 60px 0px;
+    border-style: ridge;
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+}
+div.search #search::placeholder{
+    font-size: 17px;
+}
+
+/* housekeeper page for admin and individual */
+div.housekeeper{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 600px;
+    text-align: center;
+}
+div.housekeeper #ratings,#comments,#comment{
+    margin-left: 30px;
+}
+div.housekeeper input{
+    margin: 20px 0px;
+}
+div.housekeeper span{
+    margin-right: 10px;
+}
+fieldset.commentsection {
+    overflow: scroll;
+    height: 400px;
+}
+
+

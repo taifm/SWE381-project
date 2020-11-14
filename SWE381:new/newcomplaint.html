@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Complaints</title>
+        <meta name="keywords" content="housekeeper, complaints, ziayara">
+    </head>
+    <body>
+        <header>
+            <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="iaccount.html">My Account</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="favhousekeepers.html">My Favorite Housekeepers</a></li>
+                <li><a href="reservedservices.html">My Reserved Serveces</a></li>
+                <li><a href="icomplaints.html">My Complaints</a></li>
+                <li><a href="homepage.html">Sign out</a></li>
+            </ul>
+            </nav>
+        </header>
+        <section>
+            <h1>Here are your complaints:</h1>
+            <div><img src="complaint.png" width="40" height="40">
+                <form method="post" action="">
+                    <input type="hidden" name="recipient" value="">
+                    <input type="hidden" name="subject" value="Feedback Form">
+                    <input type="hidden" name="redirect" value="main.html">
+                    <p><label>Complaint subject:
+                        <input name="compliantsubject" type="text" size="40">
+                        </label></p>
+                    <p><label>Client:
+                        <input name="client" type="text" size="40">
+                        </label></p>
+                    <p><label>Client Email:
+                        <input name="clientemail" type="text" size="40">
+                        </label></p>
+                    <p><label>Housekeeper:
+                        <input name="housekeeper" type="text" size="40">
+                        </label></p>
+                    <p><label>Housekeeper Email:
+                        <input name="housekeeperemail" type="text" size="40">
+                        </label></p>
+                    <p><label>Service Date:
+                        <input name="servicedate" type="text" size="40">
+                        </label></p>
+                    <p><label>Complaint Details:<br>
+                        <textarea name="complaintdetails" rows="6" cols="40"></textarea>
+                        </label></p>
+                </form>
+            </div>
+            <p><a href="icomplaints.html"><input type="submit" value="Submit"></a></p>
+        </section>
+    </body>
+</html>

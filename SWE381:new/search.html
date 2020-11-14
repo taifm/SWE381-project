@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="background">
+            <nav class="nav">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="homepage.html">Sign out</a></li>
+                </ul>
+            </nav>
+            <nav class="sidenav">
+                <ul>
+                    <li><a href="iaccount.html">My Account</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="favhousekeepers.html">My Favorite Housekeepers</a></li>
+                    <li><a href="reservedservices.html">My Reserved Serveces</a></li>
+                    <li><a href="icomplaints.html">My Complaints</a></li>
+                </ul>
+            </nav>
+        <div class="search">
+            <fieldset class="fieldset">
+                <legend class="legend"><img src="search.png" width="100" height="100"></legend>
+                <form method="post" action="">
+                    <input type="hidden" name="recipient" value="">
+                    <input type="hidden" name="subject" value="Feedback Form">
+                    <input type="hidden" name="redirect" value="main.html">
+                    <p><label>
+                        <input id="search" name="search" type="search" size="60" placeholder="search by name or service speciality">
+                        </label></p>
+                    <p><a href="searchresult.html"><input class="button" type="button" value="Search"></a></p>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>
